@@ -1,4 +1,0 @@
-See Description for details of an On-Demand ScriptInclude.
-https://developer.servicenow.com/app.do#!/lp/servicenow_administrator/app_store_learnv2_scripting_jakarta_on_demand_script_include?v=jakarta
-This article also shows calling the Script Include without having a constructor and variable assignment.
-Just call it as you would a built-in global function that is native to JavaScript.

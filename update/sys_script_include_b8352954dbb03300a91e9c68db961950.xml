@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_237223_mytutoria.MyHelloWorldNoArgs</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MyHelloWorldNoArgs</name>
+        <script><![CDATA[function MyHelloWorldNoArgs() {
+	gs.addInfoMessage("Hello From helloworld Method of MyHelloWorldNoArgs");
+	gs.info("Hello From helloworld Method of MyHelloWorldNoArgs");
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-09 23:36:36</sys_created_on>
+        <sys_id>b8352954dbb03300a91e9c68db961950</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MyHelloWorldNoArgs</sys_name>
+        <sys_package display_value="MyTutorialWorkflowAndScriptIncludes" source="x_237223_mytutoria">04b4a150dbb03300a91e9c68db9619e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTutorialWorkflowAndScriptIncludes">04b4a150dbb03300a91e9c68db9619e6</sys_scope>
+        <sys_update_name>sys_script_include_b8352954dbb03300a91e9c68db961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:10:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

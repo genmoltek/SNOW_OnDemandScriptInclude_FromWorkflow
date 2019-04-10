@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"ends":["b9a0fdd8dbb03300a91e9c68db9619ab"],"subflows":[],"stages":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>71a0fdd8dbb03300a91e9c68db9619aa,71a0fdd8dbb03300a91e9c68db9619ac,dd84c4acdbb43300a91e9c68db9619a8,b9a0fdd8dbb03300a91e9c68db9619ab</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>71a0fdd8dbb03300a91e9c68db9619aa,71a0fdd8dbb03300a91e9c68db9619ac,dd84c4acdbb43300a91e9c68db9619a8,b9a0fdd8dbb03300a91e9c68db9619ab,bda0fdd8dbb03300a91e9c68db9619aa</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>MyTutorialWorkflow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>false</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">71a0fdd8dbb03300a91e9c68db9619aa</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>31a0fdd8dbb03300a91e9c68db9619a9</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:17:15</sys_updated_on>
+        <table>x_237223_mytutoria_mytutorialworkflowandscriptincludes_table</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="MyTutorialWorkflow">ac25a554db303300a91e9c68db9619ab</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>MyTutorialWorkflow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-09 23:34:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac25a554db303300a91e9c68db9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyTutorialWorkflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyTutorialWorkflowAndScriptIncludes" source="x_237223_mytutoria">04b4a150dbb03300a91e9c68db9619e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTutorialWorkflowAndScriptIncludes">04b4a150dbb03300a91e9c68db9619e6</sys_scope>
+        <sys_update_name>wf_workflow_ac25a554db303300a91e9c68db9619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-09 23:34:44</sys_updated_on>
+        <table>x_237223_mytutoria_mytutorialworkflowandscriptincludes_table</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>71a0fdd8dbb03300a91e9c68db9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="MyTutorialWorkflow">31a0fdd8dbb03300a91e9c68db9619a9</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=71a0fdd8dbb03300a91e9c68db9619aa"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">71a0fdd8dbb03300a91e9c68db9619aa</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>b5a0fdd8dbb03300a91e9c68db9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Call an OnDemand ScriptInclude (has only 1 function)</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:12:07</sys_created_on>
+        <sys_id>dd84c4acdbb43300a91e9c68db9619a8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:13:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MyTutorialWorkflow">31a0fdd8dbb03300a91e9c68db9619a9</workflow_version>
+        <x>366</x>
+        <y>143</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=dd84c4acdbb43300a91e9c68db9619a8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd84c4acdbb43300a91e9c68db9619a8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:12:07</sys_created_on>
+        <sys_id>d8c480acdbb43300a91e9c68db961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:12:07</sys_updated_on>
+        <value>gs.addInfoMessage("CBL CALLING the OnDemandScriptInclude -- SI with only one function and IDENTICAL NAME AS THE FUNCTION IT DEFINES.  USE THE NAME not the API Name to call it.  YOU DONT CREATE A HANDLE/VAR REF TO IT. ")&#13;
+MyHelloWorldNoArgs();</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd84c4acdbb43300a91e9c68db9619a8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:12:07</sys_created_on>
+        <sys_id>d8c480acdbb43300a91e9c68db961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:12:07</sys_updated_on>
+        <value>gs.addInfoMessage("CBL CALLING the OnDemandScriptInclude -- SI with only one function and IDENTICAL NAME AS THE FUNCTION IT DEFINES.  USE THE NAME not the API Name to call it.  YOU DONT CREATE A HANDLE/VAR REF TO IT. ")&#13;
+MyHelloWorldNoArgs();</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Call an OnDemand ScriptInclude (has only 1 function)">dd84c4acdbb43300a91e9c68db9619a8</activity>
+        <condition>true &amp;&amp; activity.state != 'faulted'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:12:07</sys_created_on>
+        <sys_id>1cc480acdbb43300a91e9c68db961947</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:12:23</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Call an OnDemand ScriptInclude (has only 1 function)">dd84c4acdbb43300a91e9c68db9619a8</activity>
+        <condition>activity.state == 'faulted'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>true</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Error</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:12:22</sys_created_on>
+        <sys_id>48d444acdbb43300a91e9c68db961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:12:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Log Message">396807940a0a0b5c00afd9f67d9fd7a2</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>CBL STARTING MY WORKFLOW</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>71a0fdd8dbb03300a91e9c68db9619ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:13:36</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MyTutorialWorkflow">31a0fdd8dbb03300a91e9c68db9619a9</workflow_version>
+        <x>136</x>
+        <y>116</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=71a0fdd8dbb03300a91e9c68db9619ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71a0fdd8dbb03300a91e9c68db9619ac</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>f1a0fdd8dbb03300a91e9c68db9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+        <value>CBL STARTING MY WORKFLOW</value>
+        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71a0fdd8dbb03300a91e9c68db9619ac</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>f1a0fdd8dbb03300a91e9c68db9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+        <value>CBL STARTING MY WORKFLOW</value>
+        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="CBL STARTING MY WORKFLOW">71a0fdd8dbb03300a91e9c68db9619ac</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>f5a0fdd8dbb03300a91e9c68db9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Log Message">396807940a0a0b5c00afd9f67d9fd7a2</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>CBL WORKFLOW FAILED WITH ERROR</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>bda0fdd8dbb03300a91e9c68db9619aa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:13:24</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MyTutorialWorkflow">31a0fdd8dbb03300a91e9c68db9619a9</workflow_version>
+        <x>484</x>
+        <y>293</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=bda0fdd8dbb03300a91e9c68db9619aa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bda0fdd8dbb03300a91e9c68db9619aa</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>31a0fdd8dbb03300a91e9c68db9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+        <value>CBL WORKFLOW FAILED WITH ERROR</value>
+        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bda0fdd8dbb03300a91e9c68db9619aa</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>31a0fdd8dbb03300a91e9c68db9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+        <value>CBL WORKFLOW FAILED WITH ERROR</value>
+        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="CBL WORKFLOW FAILED WITH ERROR">bda0fdd8dbb03300a91e9c68db9619aa</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>35a0fdd8dbb03300a91e9c68db9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>b9a0fdd8dbb03300a91e9c68db9619ab</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:13:21</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="MyTutorialWorkflow">31a0fdd8dbb03300a91e9c68db9619a9</workflow_version>
+        <x>774</x>
+        <y>682</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b9a0fdd8dbb03300a91e9c68db9619ab"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Link to Online Article explaining OnDemand Script Includes.   Use Name not the API Name to call it.</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>4485c8acdbb43300a91e9c68db96190d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:17:10</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MyTutorialWorkflow">31a0fdd8dbb03300a91e9c68db9619a9</workflow_version>
+        <x>33</x>
+        <y>204</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4485c8acdbb43300a91e9c68db96190d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>02c5c86cdbb43300a91e9c68db96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>06c5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>42c5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>4ec5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value>This LINK is to article that explains how to have a Server-Side Only ScriptInclude.  But it must only have ONE FUNCTION.&#13;
+Its name MUST match EXACTLY the FUNCTION NAME.&#13;
+&#13;
+&#13;
+https://developer.servicenow.com/app.do#!/lp/servicenow_administrator/app_store_learnv2_scripting_jakarta_on_demand_script_include?v=jakarta</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>8ac5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value/>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>c6c5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>42c5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>02c5c86cdbb43300a91e9c68db96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>8ac5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value/>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>4ec5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value>This LINK is to article that explains how to have a Server-Side Only ScriptInclude.  But it must only have ONE FUNCTION.&#13;
+Its name MUST match EXACTLY the FUNCTION NAME.&#13;
+&#13;
+&#13;
+https://developer.servicenow.com/app.do#!/lp/servicenow_administrator/app_store_learnv2_scripting_jakarta_on_demand_script_include?v=jakarta</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>06c5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4485c8acdbb43300a91e9c68db96190d</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>c6c5c86cdbb43300a91e9c68db96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Link to Online Article explaining OnDemand Script Includes.   Use Name not the API Name to call it.">4485c8acdbb43300a91e9c68db96190d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:16:37</sys_created_on>
+        <sys_id>c6c5c86cdbb43300a91e9c68db96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:16:37</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1cc480acdbb43300a91e9c68db961947</condition>
+        <from display_value="Call an OnDemand ScriptInclude (has only 1 function)">dd84c4acdbb43300a91e9c68db9619a8</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:12:32</sys_created_on>
+        <sys_id>1ed488acdbb43300a91e9c68db961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:12:32</sys_updated_on>
+        <to display_value="End">b9a0fdd8dbb03300a91e9c68db9619ab</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">b5a0fdd8dbb03300a91e9c68db9619aa</condition>
+        <from display_value="Begin">71a0fdd8dbb03300a91e9c68db9619aa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:25:03</sys_created_on>
+        <sys_id>79a0fdd8dbb03300a91e9c68db9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:25:03</sys_updated_on>
+        <to display_value="CBL STARTING MY WORKFLOW">71a0fdd8dbb03300a91e9c68db9619ac</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">35a0fdd8dbb03300a91e9c68db9619ab</condition>
+        <from display_value="CBL WORKFLOW FAILED WITH ERROR">bda0fdd8dbb03300a91e9c68db9619aa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 00:26:11</sys_created_on>
+        <sys_id>9ee0311cdbb03300a91e9c68db9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 00:26:11</sys_updated_on>
+        <to display_value="End">b9a0fdd8dbb03300a91e9c68db9619ab</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">f5a0fdd8dbb03300a91e9c68db9619ac</condition>
+        <from display_value="CBL STARTING MY WORKFLOW">71a0fdd8dbb03300a91e9c68db9619ac</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:12:12</sys_created_on>
+        <sys_id>e1c488acdbb43300a91e9c68db961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:12:12</sys_updated_on>
+        <to display_value="Call an OnDemand ScriptInclude (has only 1 function)">dd84c4acdbb43300a91e9c68db9619a8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Error">48d444acdbb43300a91e9c68db961936</condition>
+        <from display_value="Call an OnDemand ScriptInclude (has only 1 function)">dd84c4acdbb43300a91e9c68db9619a8</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 11:12:25</sys_created_on>
+        <sys_id>f0d48028db743300a91e9c68db9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 11:12:25</sys_updated_on>
+        <to display_value="CBL WORKFLOW FAILED WITH ERROR">bda0fdd8dbb03300a91e9c68db9619aa</to>
+    </wf_transition>
+    <wf_workflow_version action="update_multiple" query="workflow=ac25a554db303300a91e9c68db9619ab^sys_id!=31a0fdd8dbb03300a91e9c68db9619a9">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>
